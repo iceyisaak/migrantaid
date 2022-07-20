@@ -1,20 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans&family=Inria+Serif&family=Inter&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@layer base {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+  }
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+/* body {
+  font-family: 'Expletus Sans', cursive;
+  font-family: 'Inria Serif', serif;
+  font-family: 'Inter', sans-serif;
 } */
