@@ -1,0 +1,18 @@
+import HeroSection from "./sections/Hero/HeroSection";
+import OffersSection from "./sections/Offers/OffersSection";
+import BlogSection from "./sections/Blog/BlogSection";
+import JoinUsSection from "./sections/JoinUs/JoinUsSection";
+import SponsorsSection from "./sections/Sponsors/SponsorsSection";
+
+const HomePage = () => {
+  return (
+    <>
+      <HeroSection />
+      <OffersSection />
+      <BlogSection />
+      <JoinUsSection />
+      <SponsorsSection />
+    </>
+  );
+};
+export default HomePage;

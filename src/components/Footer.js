@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Link from "next/link";
 import { FaFacebookF, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
@@ -14,25 +14,51 @@ const Footer = () => {
       <div className="links">
         <ul>
           <li className="text-2xl mb-3">
-            Contact
+            <Link href='/contact'>
+              <a>
+                Contact Us
+              </a>
+            </Link>
           </li>
           <li className="text-2xl mb-3">
-            About Us
+            <Link href='/about'>
+              <a>
+                About Us
+              </a>
+            </Link>
           </li>
           <li className="text-2xl mb-3">
-            Impressum
+            <Link href='/impressum'>
+              Impressum
+            </Link>
           </li>
           <li className="text-2xl mb-3">
-            Datenschutz
+            <Link href='/datenschutz'>
+              <a>
+                Datenschutz
+              </a>
+            </Link>
           </li>
           <li className="text-2xl mb-3">
-            AGB
+            <Link href='/agb'>
+              <a>
+                AGB
+              </a>
+            </Link>
           </li>
           <li className="text-2xl mb-3">
-            Join Us
+            <Link href='/join'>
+              <a>
+                Join Us
+              </a>
+            </Link>
           </li>
           <li className="text-2xl mb-3">
-            Donate
+            <Link href='/donate'>
+              <a>
+                Donate
+              </a>
+            </Link>
           </li>
         </ul>
       </div>
@@ -58,7 +84,7 @@ const Footer = () => {
       </div>
       <div className="social-icons">
         <h3 className="text-right text-4xl mb-4">
-          Follow us on
+          Follow us
         </h3>
         <ul className="flex justify-end mb-32">
           <li className="mx-1 ml-4">
@@ -69,7 +95,11 @@ const Footer = () => {
           </li>
         </ul>
         <h1 className="font-display text-6xl">
-          MigrantAid
+          <Link href='/'>
+            <a>
+              MigrantAid
+            </a>
+          </Link>
         </h1>
       </div>
     </footer>

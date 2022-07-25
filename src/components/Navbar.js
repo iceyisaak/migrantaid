@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const Navbar = () => {
   return (
     <nav className="
@@ -10,33 +12,65 @@ const Navbar = () => {
     ">
       <div className="">
         <h2 className="font-display text-6xl">
-          MigrantAid
+          <Link href='/'>
+            <a>
+              MigrantAid
+            </a>
+          </Link>
         </h2>
       </div>
 
       <div className="w-3/5">
         <ul className="flex justify-between items-center">
           <li className="text-2xl">
-            About Us
+            <Link href="/about">
+              <a>
+                About Us
+              </a>
+            </Link>
           </li>
           <li className="text-2xl">
-            Our Offers
+            <Link href='/offers'>
+              <a>
+                Our Offers
+              </a>
+            </Link>
           </li>
           <li className="text-2xl">
-            Join Us
+            <Link href='/join'>
+              <a>
+                Join Us
+              </a>
+            </Link>
           </li>
           <li className="text-2xl">
-            Contact
+            <Link href='/contact'>
+              <a>
+                Contact
+              </a>
+            </Link>
           </li>
           <li className="text-2xl">
-            Blog
+            <Link href='/blog'>
+              <a>
+                Blog
+              </a>
+            </Link>
           </li>
           <li className="text-2xl">
-            Login
+            <Link href='/login'>
+              <a>
+                Login
+              </a>
+            </Link>
           </li>
           <button className="bg-blue-900 px-3 py-3 text-center rounded-2xl w-32">
             <li className="text-2xl text-center text-gray-300">
-              Donate
+              <Link href='/donate'>
+                <a>
+                  Donate
+                </a>
+              </Link>
             </li>
           </button>
         </ul>
