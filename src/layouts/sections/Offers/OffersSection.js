@@ -4,10 +4,10 @@ import Card from '../../../components/Card';
 const OffersSection = () => {
   return (
     <section className='flex flex-col items-center py-96'>
-      <h1 className="text-6xl text-center mb-36">
+      <h1 className="text-8xl font-heading text-center mb-36">
         Our Offers
       </h1>
-      <div className='mb-40'>
+      <div className='mb-28'>
         <Card
           title="This is Card #1"
           img="https://via.placeholder.com/330x200.png"
