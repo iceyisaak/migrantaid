@@ -1,9 +1,5 @@
 import Head from 'next/head';
-import Footer from '../components/Footer';
-import Image from 'next/image';
-import Navbar from '../components/Navbar';
-import styles from '../styles/Home.module.css';
-import Hero from './Hero';
+import HeroSection from './Home/HomePage';
 
 export default function Home() {
   return (
@@ -14,8 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-
-      <Hero />
+      <HeroSection />
 
 
     </div >

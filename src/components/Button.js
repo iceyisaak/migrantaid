@@ -9,6 +9,7 @@ const Button = (props) => {
       px-10
       py-5
       h-24
+      w-116
       text-2xl
     ">
       {btnText}
