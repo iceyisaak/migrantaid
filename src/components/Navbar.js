@@ -64,15 +64,15 @@ const Navbar = () => {
               </a>
             </Link>
           </li>
-          <button className="bg-blue-900 px-3 py-3 text-center rounded-2xl w-32">
-            <li className="text-2xl text-center text-gray-300">
-              <Link href='/donate'>
-                <a>
+          <Link href='/donate'>
+            <a>
+              <button className="bg-blue-900 px-3 py-3 text-center rounded-2xl w-32">
+                <li className="text-2xl text-center text-gray-300">
                   Donate
-                </a>
-              </Link>
-            </li>
-          </button>
+                </li>
+              </button>
+            </a>
+          </Link>
         </ul>
       </div>
     </nav>
