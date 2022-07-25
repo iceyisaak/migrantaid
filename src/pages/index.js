@@ -7,17 +7,17 @@ import Hero from './Hero';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="">
       <Head>
         <title>MigrantAid e.V.</title>
         <meta name="description" content="MigrantAid | Peace through integration" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <Hero />
-      </main>
 
-    </div>
+      <Hero />
+
+
+    </div >
   );
 }
