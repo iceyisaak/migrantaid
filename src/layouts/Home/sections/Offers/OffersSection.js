@@ -7,7 +7,7 @@ const OffersSection = () => {
       <h1 className="text-8xl font-heading text-center mb-36">
         Our Offers
       </h1>
-      <div className='mb-28'>
+      <div className='mb-28 flex flex-col items-center'>
         <Card
           title="This is Card #1"
           img="https://via.placeholder.com/330x200.png"

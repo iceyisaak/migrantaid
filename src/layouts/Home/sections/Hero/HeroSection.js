@@ -3,17 +3,17 @@ import Image from 'next/image';
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen flex px-52 py-32 ">
-      <div className="w-1/3 max-h-screen">
+    <section className="min-h-5/6 flex px-52 py-32 ">
+      <div className="w-1/3 self-center">
         <h1 className="text-9xl mb-11">
           Peace through integration
         </h1>
-        <div className='mb-11 text-lg'>
+        <p className='mb-11 text-lg'>
           At MigrantAid, we believe in the power of social integration for the betterment of society.
-        </div>
+        </p>
         <div className='flex flex-col h-52 justify-between'>
-          <Button btnText="About Us" className="" />
-          <Button btnText="Our Offer" className="" />
+          <Button btnText="About Us" />
+          <Button btnText="Our Offer" />
         </div>
       </div>
       <div className="image-section w-2/3 flex px-32 py-12">
