@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import AboutLayout from '../layouts/About/AboutLayout';
+import SponsorsSection from '../layouts/Home/sections/Sponsors/SponsorsSection';
 
 const About = () => {
   return (
@@ -10,6 +11,7 @@ const About = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <AboutLayout />
+      <SponsorsSection />
     </>
   );
 };

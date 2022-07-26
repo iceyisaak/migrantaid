@@ -1,6 +1,10 @@
+import AboutUsSection from "./sections/AboutUs/AboutUsSection";
+
 const AboutLayout = () => {
   return (
-    <div>AboutLayout</div>
+    <>
+      <AboutUsSection />
+    </>
   );
 };
 export default AboutLayout;
