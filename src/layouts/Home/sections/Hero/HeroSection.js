@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const HeroSection = () => {
   return (
-    <section className="min-h-5/6 flex px-52 py-32">
+    <section className="min-h-5/6 flex px-52 py-52">
       <div className="w-1/3 self-center">
         <h1 className="text-9xl mb-11">
           Peace through integration
