@@ -7,7 +7,7 @@ const AboutUsSection = () => {
         About Us
       </h1>
       <div className='flex'>
-        <article className='flex-[1_0_auto] mr-20'>
+        <article className='mr-20'>
           <Image
             src="https://via.placeholder.com/540x370.png"
             alt='Hero Img 3'
@@ -18,7 +18,7 @@ const AboutUsSection = () => {
             priority
           />
         </article>
-        <article className='flex-[0_1_auto]'>
+        <article className='flex-[0_1_auto] w-6/12'>
           <p className='mb-10 text-2xl'>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias blanditiis aspernatur sunt nam natus veniam ratione, ducimus laborum non voluptate rerum ipsa quibusdam, commodi qui suscipit voluptates perferendis sit assumenda maiores dolorum sequi saepe quo esse. Laudantium, exercitationem quidem consequuntur esse dicta dolorem. Non recusandae voluptate nisi magnam placeat repudiandae inventore accusantium quia incidunt, sit quae ullam deserunt veniam autem eaque, animi totam! Tempora, laboriosam repellendus? Repudiandae libero, natus ipsum, est illo quo id dignissimos asperiores aut ea unde similique soluta voluptates impedit eaque explicabo mollitia reiciendis suscipit repellendus quis nesciunt exercitationem.
           </p>
