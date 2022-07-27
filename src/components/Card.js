@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Card = (props) => {
 
-  const { title, img, details, variant } = props;
+  const { title, img, details, variant, detailLink } = props;
   return (
     <article className={
       `flex mb-10 w-7/12 
@@ -32,11 +32,14 @@ const Card = (props) => {
         `}>
           {details}
         </p>
-        <Link href="#">
-          <a className='text-2xl underline'>
-            Read more...
-          </a>
-        </Link>
+        {
+          detailLink &&
+          <Link href="#">
+            <a className='text-2xl underline'>
+              Read more...
+            </a>
+          </Link>
+        }
       </article>
     </ article>
   );

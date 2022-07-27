@@ -13,18 +13,21 @@ const BlogSection = () => {
           img="https://via.placeholder.com/330x200.png"
           details="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in volutpat lacus. Etiam id leo feugiat, volutpat tellus eu, mattis leo. Fusce consectetur dapibus orci sed pretium. Mauris"
           variant='vertical'
+          detailLink
         />
         <Card
           title="This is Card #1"
           img="https://via.placeholder.com/330x200.png"
           details="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in volutpat lacus. Etiam id leo feugiat, volutpat tellus eu, mattis leo. Fusce consectetur dapibus orci sed pretium. Mauris"
           variant='vertical'
+          detailLink
         />
         <Card
           title="This is Card #1"
           img="https://via.placeholder.com/330x200.png"
           details="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in volutpat lacus. Etiam id leo feugiat, volutpat tellus eu, mattis leo. Fusce consectetur dapibus orci sed pretium. Mauris"
           variant='vertical'
+          detailLink
         />
       </div>
       <div className='mx-auto'>
