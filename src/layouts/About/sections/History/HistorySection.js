@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const HistorySection = () => {
   return (
-    <section className="p-52 mt-52">
+    <section className="py-52 pt-52 pb-80 mt-52">
       <h2 className="text-9xl mb-40 text-center font-heading">
         History
       </h2>

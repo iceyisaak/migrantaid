@@ -5,13 +5,13 @@ const Card = (props) => {
 
   const { title, img, details, variant } = props;
   return (
-    <div className={
+    <article className={
       `flex mb-10 w-7/12 
       ${variant === 'horizontal-l' && 'flex-row'}
       ${variant === 'horizontal-r' && 'flex-row-reverse'}
       ${variant === 'vertical' && 'flex-col w-4/12 mx-4 '}
     `}>
-      <article className='block w-full'>
+      <figure className='block w-full'>
         <Image
           src={img}
           alt='Card Img'
@@ -21,7 +21,7 @@ const Card = (props) => {
           objectFit='contain'
           priority
         />
-      </article>
+      </figure>
       <article className={`flex flex-col justify-center px-10 bg-gray-200 ${variant === 'vertical' && 'py-16'}`}>
         <h3 className='text-4xl mb-3'>
           {title}
@@ -38,7 +38,7 @@ const Card = (props) => {
           </a>
         </Link>
       </article>
-    </ div>
+    </ article>
   );
 };
 export default Card;
