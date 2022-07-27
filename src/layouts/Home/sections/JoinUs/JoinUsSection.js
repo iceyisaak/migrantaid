@@ -4,9 +4,9 @@ import Card from '../../../../components/Card';
 const JoinUsSection = () => {
   return (
     <section className='flex flex-col items-center py-96'>
-      <h3 className="text-8xl font-heading text-center mb-36">
+      <h2 className="text-8xl font-heading text-center mb-36">
         Join Us
-      </h3>
+      </h2>
       <div className='mb-28 flex flex-col items-center'>
         <Card
           title="This is Card #1"

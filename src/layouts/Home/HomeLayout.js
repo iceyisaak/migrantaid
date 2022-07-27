@@ -6,13 +6,13 @@ import SponsorsSection from "./sections/Sponsors/SponsorsSection";
 
 const HomePage = () => {
   return (
-    <>
+    <article>
       <HeroSection />
       <OffersSection />
       <BlogSection />
       <JoinUsSection />
       <SponsorsSection />
-    </>
+    </article>
   );
 };
 export default HomePage;

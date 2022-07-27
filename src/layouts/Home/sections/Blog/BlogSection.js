@@ -4,9 +4,9 @@ import Card from '../../../../components/Card';
 const BlogSection = () => {
   return (
     <section className='flex flex-col py-96 items-center'>
-      <h3 className="font-heading text-7xl text-center mb-36">
+      <h2 className="font-heading text-7xl text-center mb-36">
         Blog Posts
-      </h3>
+      </h2>
       <div className='flex justify-between mb-28 w-7/12'>
         <Card
           title="This is Card #1"

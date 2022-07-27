@@ -10,7 +10,7 @@ const Navbar = () => {
     h-32
     px-20
     ">
-      <div className="">
+      <div className="logo">
         <h2 className="font-display text-6xl">
           <Link href='/'>
             <a>
@@ -64,15 +64,15 @@ const Navbar = () => {
               </a>
             </Link>
           </li>
-          <Link href='/donate'>
-            <a>
-              <button className="bg-blue-900 px-3 py-3 text-center rounded-2xl w-32">
-                <li className="text-2xl text-center text-gray-300">
+          <button className="bg-blue-900 px-3 py-3 text-center rounded-2xl w-32">
+            <li className="text-2xl text-center text-gray-300">
+              <Link href='/donate'>
+                <a>
                   Donate
-                </li>
-              </button>
-            </a>
-          </Link>
+                </a>
+              </Link>
+            </li>
+          </button>
         </ul>
       </div>
     </nav>
