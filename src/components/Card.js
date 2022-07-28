@@ -9,26 +9,45 @@ const Card = (props) => {
       `flex mb-10 w-7/12 
       ${variant === 'horizontal-l' && 'flex-row'}
       ${variant === 'horizontal-r' && 'flex-row-reverse'}
-      ${variant === 'vertical' && 'flex-col w-4/12 mx-4 '}
+      ${variant === 'vertical-text' && 'flex-col w-4/12 mx-4'}
+      ${variant === 'vertical-image' && 'flex-col w-4/12 mx-4'}
     `}>
       <figure className='block w-full'>
-        <Image
-          src={img}
-          alt='Card Img'
-          layout='responsive'
-          width={`330 ${variant === 'vertical' && '200'}`}
-          height={`200 ${variant === 'vertical' && '330'}`}
-          objectFit='contain'
-          priority
-        />
+        {
+          variant === 'vertical-image' ?
+            <Image
+              src={img}
+              alt='Card Img'
+              layout='responsive'
+              width={`350`}
+              height={`500`}
+              objectFit='contain'
+              priority
+            />
+            :
+            (variant === 'horizontal-l' || 'horizontal-r' || 'vertical-text' || !variant) &&
+            < Image
+              src={img}
+              alt='Card Img'
+              layout='responsive'
+              width={`330`}
+              height={`200`}
+              objectFit='contain'
+              priority
+            />
+        }
       </figure>
-      <article className={`flex flex-col justify-center px-10 bg-gray-200 ${variant === 'vertical' && 'py-16'}`}>
+      <article className={`
+        flex flex-col justify-center px-10 bg-gray-200 
+        ${variant === 'vertical-text' && 'py-16'}
+        ${variant === 'vertical-image' && 'py-10'}
+      `}>
         <h3 className='text-4xl mb-3'>
           {title}
         </h3>
         <p className={`text-2xl 
           ${variant === 'horizontal-l' || 'horizontal-r' && 'mb-3'}
-          ${variant === 'vertical' && 'mb-8'}
+          ${variant === 'vertical-text' && 'mb-8'}
         `}>
           {details}
         </p>

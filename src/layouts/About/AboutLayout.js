@@ -6,13 +6,13 @@ import TeamSection from "./sections/Team/TeamSection";
 
 const AboutLayout = () => {
   return (
-    <>
+    <article>
       <AboutUsSection />
       <HistorySection />
       <DirectorSection />
       <TeamSection />
       <SponsorsSection />
-    </>
+    </article>
   );
 };
 export default AboutLayout;

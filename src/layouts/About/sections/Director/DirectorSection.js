@@ -13,19 +13,19 @@ const DirectorSection = () => {
           title="John Doe"
           img="https://via.placeholder.com/350x500.png"
           details="President"
-          variant='vertical'
+          variant='vertical-image'
         />
         <Card
           title="Jane Doe"
           img="https://via.placeholder.com/350x500.png"
           details="Vice-President"
-          variant='vertical'
+          variant='vertical-image'
         />
         <Card
           title="Ann Lynn"
           img="https://via.placeholder.com/350x500.png"
           details="Vice-President"
-          variant='vertical'
+          variant='vertical-image'
         />
       </div>
       <Button btnText='See More' />
