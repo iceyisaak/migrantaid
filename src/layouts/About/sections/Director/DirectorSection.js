@@ -8,7 +8,7 @@ const DirectorSection = () => {
       <h2 className="text-9xl text-center font-heading mb-60">
         Board of Directors
       </h2>
-      <div className="w-full flex justify-center bg-red-300 mb-40">
+      <div className="w-full flex justify-center mb-40">
         <Card
           title="John Doe"
           img="https://via.placeholder.com/350x500.png"
