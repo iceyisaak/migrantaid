@@ -62,7 +62,7 @@ const Card = (props) => {
           {title}
         </h3>
         <p className={`text-2xl 
-          ${variant === 'horizontal-l' || 'horizontal-r' && 'mb-3'}
+          ${variant === 'horizontal-l' || 'horizontal-r' && 'mb-5'}
           ${variant === 'vertical-text' && 'mb-8'}
           ${variant === 'square' && 'mb-8'}
         `}>
